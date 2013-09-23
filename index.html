@@ -1,0 +1,14 @@
+---
+layout: default
+title: Big List of Magic Sites
+---
+<div class='category-container'>
+  {% for category in site.categories %}
+    <div class="category">
+      <h1 class="category-heading"> {{ category }} </h1>
+      {% for post in category.last %}
+      <ul>&raquo; <a class="tooltip" href="{{ post.link }}" original-title="{{ post.description }}">{{ post.title }}</a><ul>
+      {% endfor %}
+    </div>
+  {% endfor %}
+</div>
