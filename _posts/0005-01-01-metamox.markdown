@@ -4,4 +4,5 @@ title:  "Metamox"
 date:   2013-09-19 12:06:36
 link:   http://metamox.com
 category: Pricing
+description: "Singles Price Tracker"
 ---
